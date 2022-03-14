@@ -1,0 +1,39 @@
+
+    for(level_now = level_total; level_now >= 1; level_now --)  //层级从下往上
+    {
+         //遍历一遍level_now级之上的路由器，主要查有没有在更新的
+        for(Router_count = Router_Number_N-1; Router_count>=0; Router_count --) //层级也是从下往上
+        {
+            if(Router_tree[Router_count].level >= level_now)
+            {
+                continue;
+            }
+            if(Router_tree[Router_count].condition == 3)
+            {
+                Up_level_no_update = 1;     //上面有在更新的，此标志位置一时，下面什么也不能干
+            }
+
+        }
+
+
+
+        /*只找level_now级的路由器*/
+        for(Router_count = Router_Number_N-1; Router_count>=0; Router_count --) //层级也是从下往上
+        {
+            if(Router_tree[Router_count].level < level_now) //如果当前路由器级数小于循环的级数，进入下一级循环
+            {
+                break;
+            }
+            if(Router_tree[Router_count].level > level_now) //如果当前路由器级数大于循环的级数，进入下一次循环
+            {
+                continue;
+            }
+
+            if(Up_level_no_update == 0)     //能到这步说明是本行的路由器，首先必须满足level_now之上的路由器没有在更新的
+            {
+
+            }
+
+        }
+    }
+    //for循环不停判断吧，判断谁此时可以干嘛，循环路由器 还是 循环判断包 还是 循环层级 呢...

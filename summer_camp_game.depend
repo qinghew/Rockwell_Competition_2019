@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1564723216 source:c:\users\asus\desktop\competition\summer_camp_game\main.c
+	"headfiles.h"
+
+1564571385 c:\users\asus\desktop\competition\summer_camp_game\headfiles.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"Input_Init.h"
+	"running.h"
+
+1564722345 c:\users\asus\desktop\competition\summer_camp_game\input_init.h
+
+1564722345 source:c:\users\asus\desktop\competition\summer_camp_game\input_init.c
+	"headfiles.h"
+
+1564723251 source:c:\users\asus\desktop\competition\summer_camp_game\running.c
+	"headfiles.h"
+
+1564723251 c:\users\asus\desktop\competition\summer_camp_game\running.h
+
+1564801334 source:c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game\input_init.c
+	"headfiles.h"
+
+1564571385 c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game\headfiles.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"Input_Init.h"
+	"running.h"
+
+1564722345 c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game\input_init.h
+
+1564723251 c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game\running.h
+
+1564801334 source:c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game\running.c
+	"headfiles.h"
+
+1564745242 source:c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game\main.c
+	"headfiles.h"
+
+1564801334 source:c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game_speed_up\input_init.c
+	"headfiles.h"
+
+1564571385 c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game_speed_up\headfiles.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"Input_Init.h"
+	"running.h"
+
+1564722345 c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game_speed_up\input_init.h
+
+1564723251 c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game_speed_up\running.h
+
+1564745242 source:c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game_speed_up\main.c
+	"headfiles.h"
+
+1564851566 source:c:\users\asus\desktop\王清和_大连海事大学\summer_camp_game_speed_up\running.c
+	"headfiles.h"
+
